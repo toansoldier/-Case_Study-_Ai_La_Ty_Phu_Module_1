@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Ai La Ty Phu</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+<div class="container">
+    <h1><strong style="color: #002aff;">Chương Trình AI LÀ TỶ PHÚ Phiên Bản Lỗi V2.0</strong></h1>
+    <div id="each-question" class="row">
+        <table>
+            <div class="form-group" id="board-button">
+                <button id="start-button" onclick="showQuestion()">Bắt Đầu Chơi</button>
+                <button id="withdraw-button" onclick="gameOver()">Dừng Cuộc Chơi</button>
+                <button id="help5050-button" onclick="help5050()">50 : 50</button>
+                <button id="helpSurvey-button" onclick="helpSurvey()">Khảo Sát</button>
+                <button id="reset-button" onclick="resetQuestion()">Chơi Lại</button>
+            </div>
+
+            <thead>
+            <tr>
+                <div id="question">
+                    <span id="question-number">Được Ăn Cả Ngã Về Không - Vui Lòng Bấm Vào Nút Bắt Đầu Chơi!!!</span>
+
+                </div>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <div id="boxA" class="box" onclick="select(inputA())">A</div>
+                </td>
+                <td>
+                    <div id="boxB" class="box" onclick="select(inputB())">B</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="boxC" class="box" onclick="select(inputC())">C</div>
+                </td>
+                <td>
+                    <div id="boxD" class="box" onclick="select(inputD())">D</div>
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

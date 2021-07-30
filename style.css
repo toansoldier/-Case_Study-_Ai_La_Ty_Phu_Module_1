@@ -1,0 +1,68 @@
+body {
+    margin-top: 80px;
+    background-image: url("picture/millionaire.jpg");
+}
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px #ff1500;
+    font-size: 50px;
+}
+
+
+#question {
+    margin-bottom:20px;
+    color: #FFFFFF;
+    border-radius: 4em 0px 4em 0px;
+    -moz-border-radius: 4em 0px 4em 0px;
+    -webkit-border-radius: 4em 0px 4em 0px;
+    border: 0px solid #000000;
+    line-height: 100px;
+    height:100px;
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+    background-color: #00a6ff;
+    text-transform: capitalize;
+}
+
+
+
+#each-question {
+    max-width:800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box {
+    background-color : #00a6ff;
+    color: #FFFFFF;
+    border-radius: 2em 2em;
+    line-height: 50px;
+    height:50px;
+    width:100%;
+    font-weight:bold;
+}
+
+
+td {
+    padding: 2px 2px;
+    width: 500px;
+}
+
+.box:hover {
+    background-color: #ff5600;
+}
+
+button{
+   background: #00a6ff;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #26ff00;
+    font-size: 29px;
+}
